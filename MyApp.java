@@ -1,33 +1,33 @@
+import java.util.Scanner;
+import java.util.StringTokenizer;
 
 /**
- * Write a description of class MyApp here.
+ * MyApp 클래스
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (2019315011 조은채)
+ * @version (2020.09.28)
  */
 public class MyApp
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class MyApp
-     */
-    public MyApp()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public static void main(String[] args){
+        MyStack<Integer> = 
+        
+        System.out.println("오늘 날짜를 입력하시오(년/월/일) : ");
+        Scanner scanner = new Scanner(System.in);
+        String data = scanner.next();
+        
+        StringTokenizer stz = new StringTokenizer(data, "/");
+        
+        
+        
+        System.out.println("------ Push ------");
+        for( int i = 0 ; i < 4 ; i++ ){
+            push[];
+            System.out.println();
+        }
+        System.out.println("------ Pop ------");
+        for( int j = 0 ; j < 5 ; j++){
+            pop();
+        }
     }
 }

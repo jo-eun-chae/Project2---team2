@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class MyStack here.
+ * MyStack은 Stack<T>를 구현하는 클래스입니다.
  *
  * @author (2019315026 전유정)
  * @version (2020.09.28)
@@ -20,10 +20,10 @@ public class MyStack<T> implements Stack<T>
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * push
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param     T obj
+     * @return    boolean
      */
     public boolean push(T obj)
     {
@@ -31,11 +31,15 @@ public class MyStack<T> implements Stack<T>
         s[top] = obj;
         return true;
     }
-    
+    /**
+     * pop
+     * 
+     * @return    T
+     */
     public T pop()
     {
         T result = (T)s[top];
         top -= 1;
-        return ;
+        return result;
     }
 }
